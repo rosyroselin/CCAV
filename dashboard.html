@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ICICI Bank | Credit Card Application Search</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<!-- Font-Awesome Stylesheet -->
+<link rel="stylesheet" href="css/cca-icons.css">
+</head>
+<body>
+<!--HEADER START-->
+<header>
+	<div class="container-fluid dashboard">
+    	<div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-3 logo-container"><a href="dashboard.html"><div class="logo"><span></span></div></a></div>
+            <div class="col-xs-10 col-sm-10 col-md-9"><h2>Know Your Application Status</h2></div>
+        </div>
+    </div>
+</header>
+<!--HEADER END-->
+
+<!--MAIN START-->
+<main>
+	<div class="inner-page"></div>
+	<!-- multistep form -->
+	<form id="msform" class="prefield-form form" action="/" method="post" role="form">
+		<ul id="progressbar">
+			<li class="icon active"><span class="icon-icon-1"></span>Application Received<div class="date">12/02/2019</div></li>
+			<li class="icon two"><span class="icon-icon-2"></span>Investigation Status<div class="date">15/02/2019</div></li>
+			<li class="icon three"><span class="icon-icon-3"></span>Credit Decision Status<div class="date">17/02/2019</div></li>
+			<li class="icon four"><span class="icon-icon-4"></span>Approval Status<div class="date">19/02/2019</div></li>
+			<li class="icon five"><span class="icon-icon-5"></span>Card Details<div class="date">21/02/2019</div></li>
+		</ul>
+		<!--Step 1-->
+		<fieldset>
+			<div class="form-group">
+				<h1>Your Application Status</h1>
+				<label>Application Login Date</label>
+				<input class="input" type="text" placeholder="02/02/2019"  />
+			</div>
+			<input type="button" name="next" class="next action-button pull-right" value="Next" />
+		</fieldset>
+		
+		<!--Step 2-->
+		<fieldset>
+		<div class="form-group">
+				<h1>Second</h1>
+				<label>Application Login Date</label>
+				<input class="input" type="text" placeholder="02/02/2019"  />
+		</div>
+		<input type="button" name="previous" class="previous action-button" value="Previous" />
+		<input type="button" name="next" class="next action-button pull-right" value="Next" />
+		</fieldset>
+		
+		<!--Step 3-->
+		<fieldset>
+		<div class="form-group">
+				<h1>Third</h1>
+				<label>Application Login Date</label>
+				<input class="input" type="text" placeholder="02/02/2019"  />
+			</div>
+		<input type="button" name="previous" class="previous action-button" value="Previous" />
+		<input type="button" name="next" class="next action-button pull-right" value="Next" />
+		</fieldset>
+		
+		<!--Step 4-->
+		<fieldset>
+		<div class="form-group">
+				<h1>Fourth</h1>
+				<label>Application Login Date</label>
+				<input class="input" type="text" placeholder="02/02/2019"  />
+			</div>
+		<input type="button" name="previous" class="previous action-button" value="Previous" />
+		<input type="button" name="next" class="next action-button pull-right" value="Next" />
+		</fieldset>
+		
+		<!--Step 5-->
+		<fieldset>
+		<div class="text-left"><input type="checkbox"> Accept terms and conditions</div>
+		<input type="button" name="previous" class="previous action-button" value="Previous" />
+		<input type="button" name="save" class="action-button pull-right" value="Save" />
+		<input type="submit" name="submit" class="submit action-button pull-right" value="Submit" />
+		</fieldset>
+	</form>
+</main>
+<!--MAIN END-->
+
+<!--FOOTER START-->
+<footer>Powered by Servosys Solutions</footer>
+<!--FOOTER END-->
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.easing.js"></script>
+<script src="js/script.js"></script>
+</html>

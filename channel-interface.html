@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ICICI Bank | Credit Card Application Search</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+<!--HEADER START-->
+<header>
+	<div class="container-fluid dashboard">
+    	<div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-3 logo-container"><a href="dashboard.html"><div class="logo"><span></span></div></a></div>
+            <div class="col-xs-10 col-sm-10 col-md-9"><h2>ICICI Credit Card Application Search</h2></div>
+        </div>
+    </div>
+</header>
+<!--HEADER END-->
+
+<!--MAIN START-->
+<main class="login-page">
+    <div class="login-wrap">
+        <div class="login-html">
+            <h5>Channel Interface Login</h5>
+            <div class="login-form">
+				<div class="group">
+					<label for="EmployeeID" class="label">Employee ID</label>
+					<input id="EmployeeID" type="number" class="input" required>
+				</div>
+				<!--hidden otp section-->
+				<div class="hidden-otp" style="display:none;">
+					<div class="group">
+						<label for="OTP" class="label">OTP</label>
+						<input id="OTP" type="password" class="input" required>
+					</div>
+					<div class="group">
+						<input type="submit" class="button" value="Login" onclick="window.location.href='channel-interface-application.html';">
+						<input type="submit" class="button" value="Resend OTP">
+					</div>
+				</div>
+				<!--hidden otp section-->
+				<div class="group">
+					<input type="submit" class="button hide-otp" value="Send OTP">
+				</div>
+			</div>
+        </div>
+    </div>
+</main>
+<!--MAIN END-->
+
+<!--FOOTER START-->
+<footer>Powered by Servosys Solutions</footer>
+<!--FOOTER END-->
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.slides.js"></script>
+<script src="js/jquery.easing.js"></script>
+<script src="js/script.js"></script>
+</html>
